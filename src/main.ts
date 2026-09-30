@@ -38,7 +38,8 @@ incButton.addEventListener("click", () => {
 });
 
 resButton.addEventListener("click", () => {
-  counterElement.textContent = "10"; // Resets back to 10
+  counterElement.textContent = "10";
+  counter = 10; // Resets back to 10
   incButton.style.display = "block"; // Reveals Click Button
   console.log(
     "I have these thingies:",
